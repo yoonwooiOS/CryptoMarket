@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TrendingView.swift
 //  CryptoMarket
 //
 //  Created by 김윤우 on 9/8/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TrendingView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    TrendingView()
 }
