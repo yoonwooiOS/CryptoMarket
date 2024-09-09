@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9947F33A2C8F35BB00452EA8 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9947F3392C8F35BB00452EA8 /* BannerView.swift */; };
+		9947F33D2C8F35F100452EA8 /* CoinListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9947F33C2C8F35F100452EA8 /* CoinListCell.swift */; };
 		99BBD8BC2C8DD7CB004D23BF /* CryptoMarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BBD8BB2C8DD7CB004D23BF /* CryptoMarketApp.swift */; };
 		99BBD8BE2C8DD7CB004D23BF /* TrendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BBD8BD2C8DD7CB004D23BF /* TrendingView.swift */; };
 		99BBD8C02C8DD7CC004D23BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99BBD8BF2C8DD7CC004D23BF /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9947F3392C8F35BB00452EA8 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		9947F33C2C8F35F100452EA8 /* CoinListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListCell.swift; sourceTree = "<group>"; };
 		99BBD8B82C8DD7CB004D23BF /* CryptoMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99BBD8BB2C8DD7CB004D23BF /* CryptoMarketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoMarketApp.swift; sourceTree = "<group>"; };
 		99BBD8BD2C8DD7CB004D23BF /* TrendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingView.swift; sourceTree = "<group>"; };
@@ -32,6 +36,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9947F33B2C8F35D300452EA8 /* Trending */ = {
+			isa = PBXGroup;
+			children = (
+				99BBD8BD2C8DD7CB004D23BF /* TrendingView.swift */,
+				9947F3392C8F35BB00452EA8 /* BannerView.swift */,
+				9947F33C2C8F35F100452EA8 /* CoinListCell.swift */,
+			);
+			path = Trending;
+			sourceTree = "<group>";
+		};
 		99BBD8AF2C8DD7CB004D23BF = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +65,8 @@
 		99BBD8BA2C8DD7CB004D23BF /* CryptoMarket */ = {
 			isa = PBXGroup;
 			children = (
+				9947F33B2C8F35D300452EA8 /* Trending */,
 				99BBD8BB2C8DD7CB004D23BF /* CryptoMarketApp.swift */,
-				99BBD8BD2C8DD7CB004D23BF /* TrendingView.swift */,
 				99BBD8BF2C8DD7CC004D23BF /* Assets.xcassets */,
 				99BBD8C12C8DD7CC004D23BF /* Preview Content */,
 			);
@@ -139,6 +153,8 @@
 			files = (
 				99BBD8BE2C8DD7CB004D23BF /* TrendingView.swift in Sources */,
 				99BBD8BC2C8DD7CB004D23BF /* CryptoMarketApp.swift in Sources */,
+				9947F33D2C8F35F100452EA8 /* CoinListCell.swift in Sources */,
+				9947F33A2C8F35BB00452EA8 /* BannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
